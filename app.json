@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Dapatkan nilai ini dari https://my.telegram.org",
-        "value": "",
+        "value": "17326004",
         "required": true
       },
       "API_HASH": {
         "description": "Dapatkan nilai ini dari https://my.telegram.org",
-        "value": "",
+        "value": "762051bb63a71589fec6cbd03cbd26a8",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
@@ -30,32 +30,32 @@
       },
       "BOT_TOKEN": {
         "description": "Token Bot dari Botfather",
-        "value": "",
+        "value": "5397534740:AAGTiTaOIF-ArEsMruAIVh7oQVrOIoGC2Yo",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Mongo DB URL",
-        "value": "",
+        "value": "mongodb+srv://kentot:kentot@cluster0.wd3wg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
         "required": true
       },
       "MUSIC_BOT_NAME": {
         "description": "Nama untuk Bot Musik Anda. Tolong jangan gunakan karakter ascii",
-        "value": "",
+        "value": "RohimMusicBot",
         "required": true
       },
       "OWNER_ID": {
         "description": "ID pengguna dari pengguna yang ingin Anda tambahkan sebagai PEMILIK. Beberapa nilai harus dipisahkan dengan spasi.",
-        "value": "",
+        "value": "5152169734",
         "required": true
       },
       "STRING_SESSION": {
         "description": "Sesi String Pyrogram. Asisten Pertama adalah Wajib.",
-        "value": "",
+        "value": "BQBEHBIRoFLa-twOc3oPch1IhmboOE-7BGKuHd8N4U0WWdlhcteCaDHmgClduD8RcXQJeuFbARgiS-gtt4Is9eeLn_Yxg2ttjN1ZwVNPPKaixKRyPTHzRCDoejIARw_eYToOT4udUfKJ5QnrZtqR8qEOQWxrFPcBXdTU4Bsg7q3CXLKZlfQcM_qs9Uo1Hofq7CBc2BVID30aZB0ibarWR1xJp-irNDUpDh2logDpl9eUjAB7iVzqesIszbMs-g_bIrVHCvQ4sd7ures9FERM3Ref_Sf8YiBjSwnSlSifqpmKWl1jV9bMYoFNK9-Sy-5daL4nihVn5ZXMHYF1FgNNa2NrAAAAAT09NFQA",
         "required": true
       },
       "DURATION_LIMIT": {
         "description": "diisi, berapa panjang durasi maksimal lagu!",
-        "required": true,
+        "required": "4000",
         "value": "60"
       },
       "HEROKU_API_KEY": {
@@ -65,7 +65,7 @@
       },
       "HEROKU_APP_NAME": {
         "description": "Isi dengan nama sesuai app name pake huruf kecil.",
-        "value": "",
+        "value": "False",
         "required": false
       },
       "LOG_GROUP_ID": {
@@ -75,7 +75,7 @@
       },
       "MUST_JOIN": {
         "description": "Isi dengan username channel atau group tanpa @ dan jadikan admin di gc atau ch tersebut untuk memaksa member join dulu untuk bisa menggunakan bot",
-        "value": "musikkuchannel"
+        "value": "abouthyo"
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
@@ -89,12 +89,12 @@
       },
       "SUPPORT_CHANNEL": {
         "description": "Tautan Channel Dukungan jika ada, Biarkan kosong jika tidak ada dukungan. Tautan Anda harus dimulai dengan https://t.me/",
-        "value": "https://t.me/musikkuchannel",
+        "value": "False",
         "required": false
       },
       "SUPPORT_GROUP": {
         "description": "Tautan Group Dukungan jika ada, Biarkan kosong jika tidak ada dukungan. Tautan Anda harus dimulai dengan https://t.me/",
-        "value": "https://t.me/musikkugroup",
+        "value": "False",
         "required": false
       }
     },
