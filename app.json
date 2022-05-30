@@ -60,7 +60,7 @@
       },
       "HEROKU_API_KEY": {
         "description": "Isi dengan Token Api heroku.",
-        "value": "",
+        "value": False",
         "required": false
       },
       "HEROKU_APP_NAME": {
@@ -70,7 +70,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "ID Grup Log Anda, tambahkan bot Anda dan promosikan sebagai admin dengan hak penuh!. Gunakan hanya Grup. Tolong jangan gunakan ID Channel.",
-        "value": "",
+        "value": "-1001353515936",
         "required": true
       },
       "MUST_JOIN": {
